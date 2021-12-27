@@ -15,7 +15,8 @@ html,body{
     height: 400px;
     border: 1px solid #FFFFFF;
     transform-style:preserve-3d; 
-    perspective:0px;
+    /* 可能是啥规范更新了。。。设置为 0PX 效果会出毛病，干脆不写这一句，好像就正常了 */
+    /*perspective:0px;*/
     position: relative;
     animation:mymove 8.22s ease-in-out infinite;
     font-size: 30px;
